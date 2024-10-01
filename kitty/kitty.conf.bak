@@ -1,0 +1,11 @@
+# BEGIN_KITTY_THEME
+# Nord
+include current-theme.conf
+# END_KITTY_THEME
+
+
+#Fonts
+font_family 0xProto Nerd Font Mono Bold
+bold_font 0xProto Nerd Font Mono Bold Italic
+italic_font 0xProto Nerd Font Mono Italic
+bold_italic_font 0xProto Nerd Font Mono Regular

@@ -1,0 +1,13 @@
+require("config.lazy")
+require("options")
+require("keymaps")
+require("pluginConf.lspConf")
+require("pluginConf.treesitterConf")
+require("pluginConf.lualineConf")
+require("pluginConf.telescopeConf")
+require("pluginConf.alphaConf")
+require("pluginConf.treesjConf")
+require("pluginConf.cordConf")
+require("pluginConf.barbarConf")
+require("pluginConf.completionsConf")
+
