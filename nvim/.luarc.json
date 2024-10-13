@@ -1,0 +1,12 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "opts",
+        "ensure_installed",
+        "nsure_installed"
+    ],
+    "diagnostics.disable": [
+        "different-requires",
+        "redundant-return"
+    ]
+}

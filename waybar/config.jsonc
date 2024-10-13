@@ -1,0 +1,102 @@
+{
+  "position": "top",
+    "margin-top" : 5,
+    "margin-left": 5,
+    "margin-right": 5,
+    "height" : 27,
+    "modules-left": [
+      "hyprland/workspaces"
+    ],
+    "modules-center": [
+      "clock"
+    ],
+    "modules-right": [
+    "battery",
+    "temperature",
+    "network",
+    "bluetooth",
+    "pulseaudio",
+    "custom/gap",
+    "custom/missioncenter",
+    "custom/powermenu"
+    ],
+    "hyprland/window": {
+      "format": "{}",
+      "max-length": 35,
+      "rewrite": {
+        "": "Hyprland"
+      },
+      "separate-outputs": true
+    },
+    "hyprland/workspaces": {
+      "format": "{}"
+    },
+    "clock": {
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+      "format-alt": "{:%Y-%m-%d}"
+    },
+    "cpu": {
+      "format": "  {usage}%",
+      "tooltip": false
+    },
+    "memory": {
+      "format": "{}%  "
+    },
+    "temperature": {
+      "critical-threshold": 80,
+      "format": "{icon} {temperatureC}°",
+      "format-icons": ["", "", ""],
+      "tool-tip": false
+    },
+    "battery": {
+      "states": {
+        "warning": 30,
+        "critical": 15
+      },
+      "format": "{icon}  {capacity}%",
+      "format-full": "{icon}  {capacity}%",
+      "format-charging": "  {capacity}%",
+      "format-plugged": "  {capacity}%",
+      "format-alt": "{time} {icon}",
+      "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+      "format-wifi": " ",
+      "format-ethernet": "{cidr} ",
+      "tooltip-format": "{ifname} via {gwaddr} ",
+      "format-linked": "{ifname} (No IP) ",
+      "format-disconnected": " ⚠ ",
+      "on-click" : "nm-applet"
+    },
+    "pulseaudio": {
+      "format": "{icon}  ",
+      "format-icons": {
+        "default": ["", "", ""]
+      },
+      "on-click": "pwvucontrol"
+    },
+    "bluetooth": {
+      "format": "󰂯",
+      "on-click": "blueman-manager"
+    },
+    "custom/powermenu": {
+		  "escape": true,
+		  "exec": "swaync-client -swb",
+		  "exec-if": "which swaync-client",
+		  "format": "⏻ ",
+		  "on-click": "sleep 0.1 && swaync-client -t -sw",
+		  "on-click-right": "sleep 0.1 && swaync-client -d -sw",
+		  "return-type": "json",
+		  "tooltip": false
+	},
+       "custom/missioncenter" : {
+    "format" : "  ",
+     "on-click" : "missioncenter"
+  },
+  "custom/lilgap" : {
+    "format" : "|"
+  },
+  "custom/gap" : {
+    "format" : " "
+  }
+}
