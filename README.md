@@ -33,7 +33,7 @@
 
 
 ## RICE
-/images/1.png
-/images/2.png
+![1](/images/1.png)
+![2](/images/2.png)
 
 [dante's hyprland rice](https://www.youtube.com/watch?v=1kbQIWm1MtQ)
