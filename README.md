@@ -2,6 +2,7 @@
 ## Requirements
 - hyprland (wayland compositor)
 - hyprpaper (wallpaper utility)
+- hyprshot (screenshot utility)
 - hyprlock (not in cfg for now)
 - hypridle (not in cfg for now)
 - wlogout (poweroff menu)
@@ -31,3 +32,8 @@
 (someone teach me to set themes without 3rd party please)
 
 
+## RICE
+images/1.png
+images/2.png
+
+[dante's hyprland rice](https://www.youtube.com/watch?v=1kbQIWm1MtQ)
